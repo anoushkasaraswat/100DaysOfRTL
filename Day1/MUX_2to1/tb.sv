@@ -20,7 +20,7 @@ module tb();
   end
   
     initial begin
-      $dumpfile("mux.vcd");
+      $dumpfile("mux2to1.vcd");
       $dumpvars(0, tb);
   end
   
