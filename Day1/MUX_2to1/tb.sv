@@ -12,10 +12,10 @@ module tb();
   integer i;
   initial begin
     for(i=0;i<10;i=i+1)begin
-      a = $random%8;
-      b = $random%8;
-      sel = $random%2;
-      #5;
+      a = {$random}%255;
+      b = {$random}%255;
+      sel = {$random}%2;
+      #1;
     end
   end
   
@@ -25,4 +25,3 @@ module tb();
   end
   
 endmodule
-      
