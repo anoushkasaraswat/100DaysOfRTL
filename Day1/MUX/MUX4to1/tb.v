@@ -12,11 +12,11 @@ module tb();
   integer i;
   initial begin
     for(i=0;i<10;i=i+1)begin
-      a = {$random}%255;
-      b = {$random}%255;
-      c = {$random}%255;
-      d = {$random}%255;
-      sel = {$random}%3;
+      a = $urandom_range(8'h00,8'hFF);
+      b = $urandom_range(8'h00,8'hFF);
+      c = $urandom_range(8'h00,8'hFF);
+      d = $urandom_range(8'h00,8'hFF);
+      sel = $urandom_range(2'b00,2'b11);
       #1;
     end
   end
