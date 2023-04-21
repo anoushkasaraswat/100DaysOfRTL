@@ -4,7 +4,7 @@ module tb();
   reg [7:0] b;
   reg [7:0] c;
   reg [7:0] d;
-  reg sel;
+  reg [1:0] sel;
   wire [7:0] out;
   
   mux4to1 mux1(.a(a), .b(b), .c(c), .d(d), .sel(sel), .out(out));
