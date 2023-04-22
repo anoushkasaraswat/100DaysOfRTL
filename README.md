@@ -2,6 +2,6 @@
 
 Icarus Verilog for simulation
 
-Yonsys for synthesis
+Yosys for synthesis
 
 Day 1: https://edaplayground.com/x/eS2M
