@@ -1,7 +1,7 @@
 # 100DaysOfRTL
 
-Icarus Verilog for simulation\n
-Yosys for synthesis\n
+- Icarus Verilog for simulation
+- Yosys for synthesis
 
 Day 1: 2:1 MUX https://edaplayground.com/x/eS2M
 
