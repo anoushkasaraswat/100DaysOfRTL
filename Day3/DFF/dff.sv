@@ -12,21 +12,22 @@ module dff(
   
   always@(posedge clk) begin
     if (rst) begin
-      q_syncrst = 1'b0;
+      q_syncrst <= 1'b0;
     end
     else begin
       q_syncrst <=d;
     end
   end
   
-  always@(posedge clk or rst) begin
+  always@(posedge clk or posedge rst) begin
     if (rst) begin
-      q_asyncrst = 1'b0;
+      q_asyncrst <= 1'b0;
     end
     else begin
       q_asyncrst <= d;
     end
   end
 endmodule
+        
         
         
