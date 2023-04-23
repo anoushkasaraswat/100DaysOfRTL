@@ -1,6 +1,6 @@
 # 100DaysOfRTL
 
-- Icarus Verilog for simulation
+- Icarus Verilog 0.9.7 (verilog) and 0.10.0 (system verilog) for simulation
 - Yosys for synthesis
 
 | Day    | Circuit                                             | Link                             |
