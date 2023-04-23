@@ -11,27 +11,25 @@ module tb();
   
   integer i;
   initial begin
-
-    rst <= 1'b0;
-    #2;
+    
     rst <= 1'b1;
-    #0.5;
+    @(posedge clk);
     rst <= 1'b0;
-    #1; rst <= 1'b1;
-    #0.75; rst <= 1'b0;
-    #1.25; rst <= 1'b1;
-    #1.75 rst <= 1'b0;
+    @(posedge clk);
+    //@(posedge clk)
+
   end
   initial begin
+    @(posedge clk);
     for(i=0;i<40;i=i+1) begin
       input_stream <= $urandom_range(1'b0,1'b1);
-      #0.5;
+      @(posedge clk);
     end
   end
   
   initial begin
     clk = 1;
-    #24 $finish;
+    #40 $finish;
   end
   
   always begin
