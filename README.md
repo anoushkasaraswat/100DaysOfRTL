@@ -11,3 +11,5 @@
 |Day 1   | MUX 4to1                                            |https://edaplayground.com/x/Kbks  |
 |Day 2   | Ripple Carry Adder                                  |https://edaplayground.com/x/eBYn  |
 |Day 3   | No reset/Sync reset/Async reset D Flip Flop         |https://edaplayground.com/x/J_3r  |
+|Day 4   | Edge detector                                       |https://edaplayground.com/x/iZmx  |
+|Day 5   | Shift register: SIPO                                |https://edaplayground.com/x/rzhy  |
