@@ -14,3 +14,5 @@
 |Day 4   | RTL Edge detector                                       |https://edaplayground.com/x/iZmx  |
 |Day 5   | RTL Shift register: SIPO                                |https://edaplayground.com/x/rzhy  |
 |Day 6   | RTL 8 bit Even Counter                                  |https://edaplayground.com/x/KfsC  |
+|Day 7   | RTL Moore Sequence Detector                             |https://edaplayground.com/x/Kgd4  |
+
