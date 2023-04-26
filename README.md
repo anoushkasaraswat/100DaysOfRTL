@@ -13,3 +13,4 @@
 |Day 3   | No reset/Sync reset/Async reset D Flip Flop         |https://edaplayground.com/x/J_3r  |
 |Day 4   | Edge detector                                       |https://edaplayground.com/x/iZmx  |
 |Day 5   | Shift register: SIPO                                |https://edaplayground.com/x/rzhy  |
+|Day 6   | 8 bit Even Counter                                  |https://edaplayground.com/x/KfsC  |
