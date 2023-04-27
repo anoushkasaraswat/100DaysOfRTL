@@ -13,7 +13,7 @@
 |Day 3   | RTL No reset/Sync reset/Async reset D Flip Flop         |https://edaplayground.com/x/J_3r  |
 |Day 4   | RTL Edge detector                                       |https://edaplayground.com/x/iZmx  |
 |Day 5   | RTL Shift register: SIPO                                |https://edaplayground.com/x/rzhy  |
-|Day 6   | RTL 8 bit Even Counter                                  |https://edaplayground.com/x/KfsC  |
-|Day 7   | RTL Moore Sequence Detector                             |https://edaplayground.com/x/Kgd4  |
+|Day 6   | RTL 8-bit Even Counter                                  |https://edaplayground.com/x/KfsC  |
+|Day 7   | RTL Sequence Detector                             |https://edaplayground.com/x/Kgd4  |
 |Day 8   | RTL Clock Divider by 4                                  |https://edaplayground.com/x/QC9A  |
 
