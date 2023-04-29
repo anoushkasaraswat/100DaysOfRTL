@@ -1,3 +1,4 @@
+// Code your design here
 module mealy_1011(
   input wire clk,
   input wire rst,
@@ -9,54 +10,45 @@ module mealy_1011(
     S0, S1, S2, S3
   } state;*/
   
-  reg [2:0] st;
+  reg [1:0] pst;
+  reg [1:0] nst;
   localparam S0 = 2'b00, S1 = 2'b01, S2 = 2'b10, S3 = 2'b11;
   
-  always@(posedge clk) begin
+   // combinational next state logic
+  always@(*) begin
+    case(pst)
+      S0: begin
+        nst = in?S1:S0;
+      end
+      S1: begin
+        nst = in?S1:S2;
+      end
+      S2: begin
+        nst = in?S3:S0;
+      end
+      S3: begin
+        nst = in?S1:S2;
+      end       
+    endcase
+  end
+  
+//present state sequential logic
+  always@(posedge clk or posedge rst) begin 
     if (rst) begin
-      st <= S0;
+      pst <= S0;
     end
     else begin
-      case(st)
-        S0: begin
-          if (in) begin
-            st <= S1;
-            out <= 1'b0;
-          end
-          else begin
-            out <= 1'b0;
-          end
-        end
-        S1: begin
-          if (~in) begin
-            st <= S2;
-            out <= 1'b0;
-          end
-          else begin
-            out <= 1'b0;
-          end
-        end
-        S2: begin
-          if (in) begin
-            st <= S3;
-            out <= 1'b0;
-          end
-          else begin
-            st <= S0;
-            out <= 1'b0;
-          end
-        end
-        S3: begin
-          if (in) begin
-            st <= S1;
-            out <= 1'b1;
-          end
-          else begin
-            st <= S2;
-            out <= 1'b0;
-          end
-        end        
-      endcase
+      pst <= nst;
+    end
+  end
+
+//registered output
+  always@(posedge clk or posedge rst) begin
+    if (rst) begin
+      out <= 1'b0;
+    end
+    else begin
+      out <= (pst==S3) && in;
     end
   end
 endmodule
