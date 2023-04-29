@@ -10,7 +10,7 @@ module mealy_1011(
   } state;*/
   
   reg [2:0] st;
-  localparam S0 = 1'b00, S1 = 1'b01, S2 = 1'b10, S3 = 1'b11;
+  localparam S0 = 2'b00, S1 = 2'b01, S2 = 2'b10, S3 = 2'b11;
   
   always@(posedge clk) begin
     if (rst) begin
