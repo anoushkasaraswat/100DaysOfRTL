@@ -18,3 +18,4 @@
 |Day 8   | RTL Clock Divider by 4                                  |https://edaplayground.com/x/QC9A  |
 |Day 9   | RTL Linear Feedback Right Shift Register                |https://edaplayground.com/x/irEe  |
 |Day 10  | RTL Binary to One Hot Converter                         |https://edaplayground.com/x/HFyb  |
+|Day 11  | RTL Binary to Gray Converter                            |https://edaplayground.com/x/Kkfw  |
