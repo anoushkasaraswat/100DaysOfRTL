@@ -4,7 +4,7 @@ module tb();
   logic [BINARY_WIDTH-1:0] binary;
   logic [ONEHOT_WIDTH-1:0] onehot;
   
-  bin_to_onehot bo(.binary(binary),.onehot(onehot));
+  bin_to_onehot#(BINARY_WIDTH,ONEHOT_WIDTH) bo(.binary(binary),.onehot(onehot));
   
   initial begin
     #10 $finish;
