@@ -20,3 +20,4 @@
 |Day 10  | RTL Binary to One Hot Converter                         |https://edaplayground.com/x/HFyb  |
 |Day 11  | RTL Binary to Gray Converter                            |https://edaplayground.com/x/Kkfw  |
 |Day 12  | RTL Fixed Priority Arbiter                              |https://edaplayground.com/x/jaRv  |
+|Day 13  | RTL Shift Register: SISO                                |https://edaplayground.com/x/Kmfb  |
