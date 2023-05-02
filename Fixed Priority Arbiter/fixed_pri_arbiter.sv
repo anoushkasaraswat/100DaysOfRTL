@@ -1,3 +1,6 @@
+//Lower order bits carry higher priority
+//One hot encoding of requesters and grant
+
 module fixed_pri_arbiter#(parameter REQUESTERS = 4)(
   input wire [REQUESTERS-1:0] req_i,
   output wire [REQUESTERS-1:0] grant_i);
