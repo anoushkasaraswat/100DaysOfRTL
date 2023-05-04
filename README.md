@@ -17,8 +17,9 @@
 |Day 7   | RTL Sequence Detector : Moore                           |https://edaplayground.com/x/Kgd4  |
 |Day 8   | RTL Sequence Detector : Mealy                           |https://edaplayground.com/x/g8id  |
 |Day 9   | RTL Clock Divider by 4                                  |https://edaplayground.com/x/QC9A  |
-|Day 10   | RTL Linear Feedback Right Shift Register                |https://edaplayground.com/x/irEe  |
+|Day 10   | RTL Linear Feedback Right Shift Register               |https://edaplayground.com/x/irEe  |
 |Day 11  | RTL Binary to One Hot Converter                         |https://edaplayground.com/x/HFyb  |
 |Day 12  | RTL Binary to Gray Converter                            |https://edaplayground.com/x/Kkfw  |
 |Day 13  | RTL Fixed Priority Arbiter                              |https://edaplayground.com/x/jaRv  |
 |Day 14  | RTL Shift Register: SISO                                |https://edaplayground.com/x/Kmfb  |
+|Day 15  | RTL Self loading down counter                           |https://edaplayground.com/x/eDX5  |
