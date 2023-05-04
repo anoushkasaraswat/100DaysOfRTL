@@ -1,3 +1,5 @@
+// Code your testbench here
+// or browse Examples
 module tb();
   
   reg clk;
@@ -19,19 +21,19 @@ module tb();
   
   integer i;
   initial begin
-    rst = 1'b0;
-    load_valid = 0;
+    rst <= 1'b0;
+    load_valid <= 0;
     @(negedge clk);
-    rst = 1'b1;
+    rst <= 1'b1;
     for (i=0;i<32;i=i+1) begin
-      load_valid = 0;
+      load_valid <= 0;
       @(posedge clk);
       @(posedge clk);
       @(posedge clk);
       @(posedge clk);
-      load_valid = 1;
-      load = 4'hc;
-      #1;
+      load_valid <= 1;
+      load <= 4'hf;
+      @(posedge clk);
     end
   end
   
@@ -41,5 +43,3 @@ module tb();
   end
 endmodule
     
-      
-      
