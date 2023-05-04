@@ -8,17 +8,8 @@ module loadable_down_counter(
   wire [3:0] out_next;
   reg [3:0] load_ff;
   
-  assign out_next = load_valid?load_ff:(out == 4'h0)?4'hF:(out-4'h1);
-  
-  always@(posedge clk or negedge rst) begin
-    if (~rst) begin
-      load_ff <= 4'hF;
-    end
-    else if (load_valid) begin
-      load_ff <= load;
-    end
-  end
-  
+  assign out_next = load_valid?load:(out == 4'h0)?4'hF:(out-4'h1);
+ 
   always@(posedge clk or negedge rst) begin
     if (~rst) begin
       out <= 4'hF;
