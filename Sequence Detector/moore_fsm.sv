@@ -44,7 +44,7 @@ module moore_1011(
     end
   end
 
-//registered output
+//registered output : one cycle delayed output
   always@(posedge clk or posedge rst) begin
     if (rst) begin
       out <= 1'b0;
@@ -53,4 +53,14 @@ module moore_1011(
       out <= (pst==S4);
     end
   end
+
+//combinatorial output : no delay but bad for timing requirements
+/*  always@(*) begin
+    if (rst) begin
+      out = 1'b0;
+    end
+    else begin
+      out = (pst==S4);
+    end
+  end  */
 endmodule
