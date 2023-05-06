@@ -19,12 +19,13 @@ module tb();
   
   integer i;                   
   initial begin
+    rst <= 1'b0;
+    @(negedge clk);
     rst <= 1'b1;
     @(posedge clk);
-    rst <= 1'b0;
     for (i=0;i<40;i=i+1) begin
-      req_i = $urandom_range(4'h0,4'hf);
-      #1;
+      req_i = $urandom_range(4'h1,4'hf);
+      #2;
     end
   end
   
