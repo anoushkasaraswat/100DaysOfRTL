@@ -24,4 +24,4 @@
 |Day 14  | RTL Shift Register: SISO                                |https://edaplayground.com/x/Kmfb  |
 |Day 15  | RTL Self loading down counter                           |https://edaplayground.com/x/eDX5  |
 |Day 16  | RTL Round Robin Arbiter                                 |https://edaplayground.com/x/h5NX  |
-|Day 16  | RTL Shift Register: PISO                                |https://edaplayground.com/x/AHzX  |
+|Day 17  | RTL Shift Register: PISO                                |https://edaplayground.com/x/AHzX  |
