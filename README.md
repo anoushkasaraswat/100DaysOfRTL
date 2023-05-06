@@ -23,3 +23,4 @@
 |Day 13  | RTL Fixed Priority Arbiter                              |https://edaplayground.com/x/jaRv  |
 |Day 14  | RTL Shift Register: SISO                                |https://edaplayground.com/x/Kmfb  |
 |Day 15  | RTL Self loading down counter                           |https://edaplayground.com/x/eDX5  |
+|Day 16  | RTL Round Robin Arbiter                                 |https://edaplayground.com/x/h5NX  |
