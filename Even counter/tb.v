@@ -2,8 +2,9 @@ module tb();
   reg clk;
   reg rst;
   wire [7:0] count;
+  wire cout;
   
-  even_counter ec(.clk(clk),.rst(rst),.count(count));
+  even_counter ec(.clk(clk),.rst(rst),.count(count),.cout(cout));
   
   always begin
     #1 clk = ~clk;
@@ -11,12 +12,12 @@ module tb();
   
   initial begin
     clk = 1;
-    #40 $finish;
+    #300 $finish;
   end
   
   initial begin
     rst <= 1'b1;
-    @(posedge clk);
+    @(posedge clk)
     rst <= 1'b0;
   end
   
