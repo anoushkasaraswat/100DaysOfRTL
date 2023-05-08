@@ -26,4 +26,5 @@
 |Day 16  | RTL Round Robin Arbiter                                 |https://edaplayground.com/x/h5NX  |
 |Day 17  | RTL Shift Register: PISO                                |https://edaplayground.com/x/AHzX  |
 |Day 18  | RTL Shift Register: PIPO                                |https://edaplayground.com/x/DVCV  |
+|Day 19  | RTL ALU                                                 |                                  |
 
