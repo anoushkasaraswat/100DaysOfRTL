@@ -27,4 +27,5 @@
 |Day 17  | RTL Shift Register: PISO                                |https://edaplayground.com/x/AHzX  |
 |Day 18  | RTL Shift Register: PIPO                                |https://edaplayground.com/x/DVCV  |
 |Day 19  | RTL ALU                                                 |https://edaplayground.com/x/KtD3  |
+|Day 19  | RTL Memory Interface                                    |https://edaplayground.com/x/KtD3  |
 
