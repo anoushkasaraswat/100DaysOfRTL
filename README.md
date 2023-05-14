@@ -28,4 +28,5 @@
 |Day 18  | RTL Shift Register: PIPO                                |https://edaplayground.com/x/DVCV  |
 |Day 19  | RTL ALU                                                 |https://edaplayground.com/x/KtD3  |
 |Day 20  | RTL Parameterised FIFO                                  |https://edaplayground.com/x/Tuhz  |
+|Day 21  | TB SV classes intro                                     |https://www.edaplayground.com/x/Xq8u  |
 
