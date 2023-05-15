@@ -29,4 +29,5 @@
 |Day 19  | RTL ALU                                                 |https://edaplayground.com/x/KtD3  |
 |Day 20  | RTL Parameterised FIFO                                  |https://edaplayground.com/x/Tuhz  |
 |Day 21  | TB SV classes intro                                     |https://www.edaplayground.com/x/Xq8u  |
+|Day 22  | RTL APB Master                                          |https://www.edaplayground.com/x/vqRp  |
 
