@@ -9,7 +9,7 @@
 |:------:|:-------------------------------------------------------:|:--------------------------------:|
 |Day 1   | RTL MUX 2to1                                            |https://edaplayground.com/x/eS2M  |
 |Day 1   | RTL MUX 4to1                                            |https://edaplayground.com/x/Kbks  |
-|Day 2   | RTL MUX 4to1                                            |https://edaplayground.com/x/Xfve  |
+|Day 2   | RTL MUX 4to1 Different Ways                                          |https://edaplayground.com/x/Xfve  |
 |Day 3   | RTL Ripple Carry Adder                                  |https://edaplayground.com/x/eBYn  |
 |Day 4   | RTL No reset/Sync reset/Async reset D Flip Flop         |https://edaplayground.com/x/J_3r  |
 |Day 5   | RTL Edge detector                                       |https://edaplayground.com/x/iZmx  |
