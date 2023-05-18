@@ -32,4 +32,4 @@
 |Day 22  | TB SV classes intro                                     |https://www.edaplayground.com/x/Xq8u  |
 |Day 23  | RTL APB Master                                          |https://www.edaplayground.com/x/vqRp  |
 |Day 24  | RTL Memory interface using FIFO                         |https://edaplayground.com/x/S3Bt  |
-
+|Day 23  | RTL APB Slave                                           |https://edaplayground.com/x/eq8B |
