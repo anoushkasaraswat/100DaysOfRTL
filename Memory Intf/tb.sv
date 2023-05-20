@@ -19,20 +19,21 @@ module tb();
     #1 clk = ~clk;
   end
   
-  logic [3:0] addr;
+  logic [31:0] addr [10:0];
   
   integer i;
   initial begin
     rst <= 1'b1;
     req_vld <= 1'b0;
+    req_addr <= 32'd0;
     `CLK;
     rst <= 1'b0;
     `CLK;
-    for(i=0;i<4;i=i+1) begin
+    for(i=0;i<=10;i=i+1) begin
       req_vld <= 1'b1;
       req_rnw <= 1'b0;
-      req_addr <= $urandom_range(4'h0,4'hF);
-      addr = req_addr[i];
+      req_addr <= $urandom_range(4'h1,4'hF);
+      addr[i] <= req_addr;
       wdata <= $urandom_range(32'h0,32'hFFFF);
       `CLK;
       while (~req_rdy) begin
@@ -41,7 +42,7 @@ module tb();
       req_vld <= 1'b0;
       `CLK;
     end
-    for (int i=0; i<4; i++) begin
+    for (int i=0; i<=10; i++) begin
       req_vld   <= 1'b1;
       req_rnw   <= 1;
       req_addr  <= addr[i];
@@ -59,9 +60,16 @@ module tb();
   initial begin
     $dumpfile("mem_intf.vcd");
     $dumpvars(0, tb);
+    for (i = 0; i < 11; i = i + 1) begin 
+      $dumpvars(0, addr[i]);
+    end
   end
 
   
 endmodule
       
+    
+    
+    
+  
   
