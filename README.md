@@ -34,4 +34,4 @@
 |Day 24  | RTL Memory interface                                    |https://edaplayground.com/x/S3Bt  |
 |Day 25  | RTL APB Slave                                           |https://edaplayground.com/x/eq8B |
 |Day 26  | RTL 4-bit Ready/Valid Serializer                        |https://edaplayground.com/x/L3Gt |
-|Day 26  | RTL MAC                                                 |https://edaplayground.com/x/L3Gt |
+|Day 26  | RTL MAC                                                 |https://edaplayground.com/x/Btf8 |
