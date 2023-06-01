@@ -35,4 +35,5 @@
 |Day 25  | RTL APB Slave                                           |https://edaplayground.com/x/eq8B |
 |Day 26  | RTL 4-bit Ready/Valid Serializer                        |https://edaplayground.com/x/L3Gt |
 |Day 27  | RTL MAC                                                 |https://edaplayground.com/x/Btf8 |
-|Day 28  | RTL RTL APB System                                      |https://edaplayground.com/x/JYAh |
+|Day 28  | RTL APB System                                          |https://edaplayground.com/x/JYAh |
+|Day 29  | RTL APB Master Using Interfaces                         |https://edaplayground.com/x/ZWga |
