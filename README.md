@@ -37,3 +37,7 @@
 |Day 27  | RTL MAC                                                 |https://edaplayground.com/x/Btf8 |
 |Day 28  | RTL APB System                                          |https://edaplayground.com/x/JYAh |
 |Day 29  | RTL APB Master Using Interfaces                         |https://edaplayground.com/x/ZWga |
+|Day 30  | RTL Events to APB                                       |https://quicksilicon.in/course/rtl-design/module/events-to-apb |
+
+
+
