@@ -38,6 +38,8 @@
 |Day 28  | RTL APB System                                          |https://edaplayground.com/x/JYAh |
 |Day 29  | RTL APB Master Using Interfaces                         |https://edaplayground.com/x/ZWga |
 |Day 30  | RTL Events to APB                                       |https://shorturl.at/iDFV6 |
+|Day 31  | RTL Sequence Generator                                  |https://quicksilicon.in/course/rtl-design/module/sequence-generator |
+
 
 
 
